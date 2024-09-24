@@ -22,7 +22,7 @@ app.use(express.json());
 // CORS configuration
 
 // Define allowed origins
-const allowedOrigins = ['http://localhost:5000'];
+const allowedOrigins = ['https://todo-mern-6j2q.onrender.com'];
 
 const corsOptions = {
   origin: function (origin, callback) {
